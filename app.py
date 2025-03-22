@@ -1,8 +1,8 @@
 
-numbers = [2, 2, 2, 2, 5]
+numbers = [5, 2, 7, 5, 8, 2, 11, 7, 46, 7, 5]
+new_array = []
 
 for number in numbers:
-    output = ""
-    for num_of_x in range(0, number):
-        output += "X"
-    print(output)
+    if number not in new_array:
+        new_array.append(number)
+print(new_array)
