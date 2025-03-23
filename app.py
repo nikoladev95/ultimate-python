@@ -1,5 +1,11 @@
+#
+# from lucky_charm.dice import Dice
+#
+# dice_roll = Dice()
+# print(dice_roll.roll())
 
-from lucky_charm.dice import Dice
+from pathlib import Path
 
-dice_roll = Dice()
-print(dice_roll.roll())
+path = Path()
+for file in path.glob('*.*'):
+    print(file)
