@@ -1,4 +1,5 @@
 
-from utils import find_max as fm
+from lucky_charm.dice import Dice
 
-print(fm([5, 7, 11, 94, 25, 4]))
+dice_roll = Dice()
+print(dice_roll.roll())
